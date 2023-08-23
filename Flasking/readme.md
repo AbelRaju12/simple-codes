@@ -13,6 +13,13 @@ if __name__ == '__main__':
     app.run(debug=True)
 #we can run app directly instead of flask run
 
+you can add html directly as 
+# '''
+    # <!doctype html>
+    # <html>
+    # </html>
+# '''
+
 return render_template('about.html', title = 'About page')
 we can add variables like 'title' and call it in html like 
     {% if title %}
@@ -25,3 +32,8 @@ we can import contents of an html using {% extends name.html %}
 
 {% block content %}{% endblock %} 
 Here 'content' is user defined
+
+
+TO generate a random key
+import secrets
+secrets.token_hex(16) 

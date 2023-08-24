@@ -37,3 +37,5 @@ Here 'content' is user defined
 TO generate a random key
 import secrets
 secrets.token_hex(16) 
+
+<fieldset> tag creates a box around relted elements

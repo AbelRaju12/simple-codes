@@ -8,7 +8,9 @@
           "How are you",
           "Is anyone there?",
           "Hello",
-          "Good day"
+          "Good day",
+          "hoi",
+          "are you here?"
         ],
         "responses": [
           "Hey :-)",
@@ -16,6 +18,17 @@
           "Hi there, what can I do for you?",
           "Hi there, how can I help?"
         ]
+      },
+      {
+        "tag":"inquiry",
+        "patterns":["How are you?",
+        "How are you doing?",
+        "Are you happy?",
+        "How is your life?"],
+        "responses":["I am doing great! thanks for asking", 
+        "I am an AI bot so I am always content.. Thanks for asking though", 
+        "You are a nice person. I am fine. Thank you for your inquiry!",
+        "I am fine and here to help you :)"]
       },
       {
         "tag": "goodbye",
